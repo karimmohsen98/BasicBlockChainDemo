@@ -1,0 +1,23 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ç«øÿÿÿÿ8°ó¸ÇÅ1
+Œ
+java:S1319"jThe type of "blockchain" should be an interface such as "List" rather than the implementation "ArrayList".(™Ç«øÿÿÿÿ8±ó¸ÇÅ1
+x
+java:S1104"VMake blockchain a static final constant or non-public and provide accessors if needed.(™Ç«øÿÿÿÿ8±ó¸ÇÅ1
+x
+java:S1104	"VMake difficulty a static final constant or non-public and provide accessors if needed.(öÙ‚¥şÿÿÿÿ8 ¼‡ÈÅ1
+R
+java:S1444"0Make this "public static blockchain" field final(™Ç«øÿÿÿÿ8±ó¸ÇÅ1
+R
+java:S1444	"0Make this "public static difficulty" field final(öÙ‚¥şÿÿÿÿ8 ¼‡ÈÅ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¨ùÿÿÿÿ8²ó¸ÇÅ1
+L	java:S106"+Replace this use of System.out by a logger.( ™²Ìşÿÿÿÿ8µ¼‡ÈÅ1
+G	java:S106"+Replace this use of System.out by a logger.(Ø–á±8¶¼‡ÈÅ1
+G	java:S106"+Replace this use of System.out by a logger.(Ã„¸Á8¶¼‡ÈÅ1
+F	java:S106"+Replace this use of System.out by a logger.(–³›Z8·¼‡ÈÅ1
+G	java:S106"+Replace this use of System.out by a logger.(¦•»ü8¹¼‡ÈÅ1
+G	java:S106"+Replace this use of System.out by a logger.(óù¯8¹¼‡ÈÅ1
+L	java:S106,"+Replace this use of System.out by a logger.(¹¤ø÷üÿÿÿÿ8¼¼‡ÈÅ1
+G	java:S1061"+Replace this use of System.out by a logger.(ª »8½¼‡ÈÅ1
+G	java:S1066"+Replace this use of System.out by a logger.(úÖóë8¾¼‡ÈÅ1
