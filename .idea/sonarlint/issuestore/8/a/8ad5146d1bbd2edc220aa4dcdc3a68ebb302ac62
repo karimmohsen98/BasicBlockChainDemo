@@ -1,25 +1,34 @@
 
 {
-java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ç«øÿÿÿÿ8°ó¸ÇÅ1
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ç«øÿÿÿÿ8ÀƒßÌÅ1
 Œ
-java:S1319	"jThe type of "blockchain" should be an interface such as "List" rather than the implementation "ArrayList".(™Ç«øÿÿÿÿ8±ó¸ÇÅ1
+java:S1319"jThe type of "blockchain" should be an interface such as "List" rather than the implementation "ArrayList".(™Ç«øÿÿÿÿ8ÀƒßÌÅ1
 x
-java:S1104	"VMake blockchain a static final constant or non-public and provide accessors if needed.(™Ç«øÿÿÿÿ8±ó¸ÇÅ1
+java:S1104"VMake blockchain a static final constant or non-public and provide accessors if needed.(™Ç«øÿÿÿÿ8ÁƒßÌÅ1
 x
-java:S1104
-"VMake difficulty a static final constant or non-public and provide accessors if needed.(öÙ‚¥şÿÿÿÿ8 ¼‡ÈÅ1
+java:S1104"VMake difficulty a static final constant or non-public and provide accessors if needed.(öÙ‚¥şÿÿÿÿ8ÁƒßÌÅ1
+p
+java:S1104"SMake walletA a static final constant or non-public and provide accessors if needed.(Öß„â8ÁƒßÌÅ1
+o
+java:S1104"SMake walletB a static final constant or non-public and provide accessors if needed.(˜é®v8ÁƒßÌÅ1
 R
-java:S1444	"0Make this "public static blockchain" field final(™Ç«øÿÿÿÿ8±ó¸ÇÅ1
+java:S1444"0Make this "public static blockchain" field final(™Ç«øÿÿÿÿ8ÁƒßÌÅ1
 R
-java:S1444
-"0Make this "public static difficulty" field final(öÙ‚¥şÿÿÿÿ8 ¼‡ÈÅ1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¨ùÿÿÿÿ8²ó¸ÇÅ1
-L	java:S106"+Replace this use of System.out by a logger.( ™²Ìşÿÿÿÿ8µ¼‡ÈÅ1
-G	java:S106"+Replace this use of System.out by a logger.(Ø–á±8¶¼‡ÈÅ1
-G	java:S106"+Replace this use of System.out by a logger.(Ã„¸Á8¶¼‡ÈÅ1
-F	java:S106"+Replace this use of System.out by a logger.(–³›Z8·¼‡ÈÅ1
-G	java:S106"+Replace this use of System.out by a logger.(¦•»ü8¹¼‡ÈÅ1
-G	java:S106"+Replace this use of System.out by a logger.(óù¯8¹¼‡ÈÅ1
-L	java:S106-"+Replace this use of System.out by a logger.(¹¤ø÷üÿÿÿÿ8¼¼‡ÈÅ1
-G	java:S1062"+Replace this use of System.out by a logger.(ª »8½¼‡ÈÅ1
-G	java:S1067"+Replace this use of System.out by a logger.(úÖóë8¾¼‡ÈÅ1
+java:S1444"0Make this "public static difficulty" field final(öÙ‚¥şÿÿÿÿ8ÁƒßÌÅ1
+J
+java:S1444"-Make this "public static walletA" field final(Öß„â8ÁƒßÌÅ1
+I
+java:S1444"-Make this "public static walletB" field final(˜é®v8ÁƒßÌÅ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¨ùÿÿÿÿ8ÁƒßÌÅ1
+?
+java:S2386"Make this member "protected".(™Ç«øÿÿÿÿ8ÍˆÍÅ1
+G	java:S106"+Replace this use of System.out by a logger.(€ÂÆ8ÍƒßÌÅ1
+L	java:S106"+Replace this use of System.out by a logger.(êÿÊûÿÿÿÿ8ÍƒßÌÅ1
+L	java:S106"+Replace this use of System.out by a logger.(øèÅøÿÿÿÿ8ÍƒßÌÅ1
+L	java:S106!"+Replace this use of System.out by a logger.(òìßùÿÿÿÿ8äÌáÌÅ1
+G	java:S106""+Replace this use of System.out by a logger.(«¨Ñ¾8ÎîÿÌÅ1
+L	java:S1060"+Replace this use of System.out by a logger.(¹¤ø÷üÿÿÿÿ8ÒîÿÌÅ1
+G	java:S1065"+Replace this use of System.out by a logger.(ª »8ÒîÿÌÅ1
+G	java:S106:"+Replace this use of System.out by a logger.(úÖóë8ÓîÿÌÅ1
+Z
+java:S1128"8Remove this unused import 'com.google.gson.GsonBuilder'.(”«à¬ÿÿÿÿÿ8àˆÍÅ1

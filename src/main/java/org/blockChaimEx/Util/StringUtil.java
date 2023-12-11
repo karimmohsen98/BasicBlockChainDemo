@@ -1,6 +1,7 @@
 package org.blockChaimEx.Util;
 
-import java.security.MessageDigest;
+import java.security.*;
+import java.util.Base64;
 
 public class StringUtil {
     public static String applySha256(String input) {
@@ -26,5 +27,33 @@ public class StringUtil {
             throw new RuntimeException(e);
 
         }
+    }
+    public static byte[] applyECDSASig(PrivateKey privateKey,String input){
+        byte[] bytes = new byte[0];
+        try {
+            Signature signature = Signature.getInstance("ECDSA","BC");
+            signature.initSign(privateKey);
+            byte[] strByte = input.getBytes();
+            signature.update(strByte);
+            byte[] realSig = signature.sign();
+            bytes = realSig;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        return bytes;
+    }
+    public static boolean verifyECDSASig(PublicKey publicKey,String data , byte[] signature){
+        try {
+        Signature ecdsaVerif = Signature.getInstance("ECDSA","BC");
+        ecdsaVerif.initVerify(publicKey);
+        ecdsaVerif.update(data.getBytes());
+        return ecdsaVerif.verify(signature);
+    }catch (Exception e){
+        throw new RuntimeException(e);
+        }
+    }
+
+    public static String getStringFromKey(Key key) {
+        return Base64.getEncoder().encodeToString(key.getEncoded());
     }
 }

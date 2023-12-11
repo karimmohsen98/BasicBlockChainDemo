@@ -2,33 +2,36 @@ package org.blockChaimEx;
 
 import com.google.gson.GsonBuilder;
 import org.blockChaimEx.Entities.Block;
+import org.blockChaimEx.Entities.Transaction;
+import org.blockChaimEx.Entities.Wallet;
+import org.blockChaimEx.Util.StringUtil;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
+import java.security.Security;
 import java.util.ArrayList;
 
 public class Main {
     public static ArrayList<Block> blockchain = new ArrayList<Block>();
     public static int difficulty = 5;
+    public static Wallet walletA;
+    public static Wallet walletB;
+
 
     public static void main(String[] args) {
         //add our blocks to the blockchain ArrayList:
+        Security.addProvider(new BouncyCastleProvider());
+        walletA = new Wallet();
+        walletB = new Wallet();
+        System.out.println("Private and public keys:");
 
-        blockchain.add(new Block("Hi im the first block", "0"));
-        System.out.println("Trying to Mine block 1... ");
-        blockchain.get(0).mineBlock(difficulty);
-
-        blockchain.add(new Block("Yo im the second block",blockchain.get(blockchain.size()-1).hash));
-        System.out.println("Trying to Mine block 2... ");
-        blockchain.get(1).mineBlock(difficulty);
-
-        blockchain.add(new Block("Hey im the third block",blockchain.get(blockchain.size()-1).hash));
-        System.out.println("Trying to Mine block 3... ");
-        blockchain.get(2).mineBlock(difficulty);
-
-        System.out.println("\nBlockchain is Valid: " + isChainValid());
-
-        String blockchainJson = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
-        System.out.println("\nThe block chain: ");
-        System.out.println(blockchainJson);
+        System.out.println(StringUtil.getStringFromKey(walletA.privateKey));
+        System.out.println(StringUtil.getStringFromKey(walletA.publicKey));
+        //Create a test transaction from WalletA to walletB
+        Transaction transaction = new Transaction(walletA.publicKey, walletB.publicKey, 5, null);
+        transaction.generateSignature(walletA.privateKey);
+        //Verify the signature works and verify it from the public key
+        System.out.println("Is signature verified");
+        System.out.println(transaction.verifySignature());
     }
 
     public static Boolean isChainValid() {

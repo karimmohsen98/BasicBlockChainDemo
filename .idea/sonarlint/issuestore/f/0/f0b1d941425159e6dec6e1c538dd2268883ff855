@@ -1,0 +1,31 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(÷Ÿ„½ÿÿÿÿÿ8ÂôÌÌÅ1
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ááãùÿÿÿÿ8ÂôÌÌÅ1
+ˆ
+java:S1319"fThe type of "inputs" should be an interface such as "List" rather than the implementation "ArrayList".(÷Ÿ„½ÿÿÿÿÿ8ÃôÌÌÅ1
+‰
+java:S1319"gThe type of "outputs" should be an interface such as "List" rather than the implementation "ArrayList".(Ááãùÿÿÿÿ8ÃôÌÌÅ1
+‚
+java:S1319"fThe type of "inputs" should be an interface such as "List" rather than the implementation "ArrayList".(¢Òë8ÃôÌÌÅ1
+u
+java:S1104
+"YMake transactionId a static final constant or non-public and provide accessors if needed.(æŞ˜|8ÃôÌÌÅ1
+o
+java:S1104"RMake sender a static final constant or non-public and provide accessors if needed.(şŞèë8ÃôÌÌÅ1
+x
+java:S1104"VMake reciepient a static final constant or non-public and provide accessors if needed.(êòë‹ÿÿÿÿÿ8ÃôÌÌÅ1
+s
+java:S1104"QMake value a static final constant or non-public and provide accessors if needed.(¼Á’Øıÿÿÿÿ8ÃôÌÌÅ1
+r
+java:S1104"UMake signature a static final constant or non-public and provide accessors if needed.(Ô½Ôü8ÃôÌÌÅ1
+t
+java:S1104"RMake inputs a static final constant or non-public and provide accessors if needed.(÷Ÿ„½ÿÿÿÿÿ8ÃôÌÌÅ1
+u
+java:S1104"SMake outputs a static final constant or non-public and provide accessors if needed.(Ááãùÿÿÿÿ8ÃôÌÌÅ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ßŞİ8ÄôÌÌÅ1
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(®ªû»8ÉôÌÌÅ1
+N
+java:S1144"1Remove this unused private "calulateHash" method.(ÅæÆ8ÌôÌÌÅ1

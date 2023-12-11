@@ -1,0 +1,7 @@
+
+
+java:S1104"_Make transactionOutputId a static final constant or non-public and provide accessors if needed.(æÑ®ìøÿÿÿÿ8êÇ®ÍÅ1
+m
+java:S1104"PMake UTXO a static final constant or non-public and provide accessors if needed.(­¸Õ–8ëÇ®ÍÅ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ßŞİ8ëÇ®ÍÅ1
+k	java:S116"ORename this field "UTXO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¸Õ–8ìÇ®ÍÅ1
