@@ -1,6 +1,7 @@
 package org.blockChaimEx;
 
 import com.google.gson.GsonBuilder;
+import org.blockChaimEx.Entities.Block;
 
 import java.util.ArrayList;
 

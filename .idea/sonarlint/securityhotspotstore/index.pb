@@ -11,3 +11,7 @@ c
 -src/main/java/org/blockChaimEx/ArrayList.java,7\2\727df97b9f36e00a4c6a01d7953c7a4d3cbf395d
 Y
 )src/main/java/org/blockChaimEx/Block.java,1\8\185756aa92a8a1b212cc807f9d8be67b93098a4d
+b
+2src/main/java/org/blockChaimEx/Entities/Block.java,8\c\8c15cc5620d7a1ff4ba832de206f147160be4e50
+c
+3src/main/java/org/blockChaimEx/Entities/Wallet.java,e\6\e6af5c7cffa651e0af3ad57b715a0df1bf674c56

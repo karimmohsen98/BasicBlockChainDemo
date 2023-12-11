@@ -1,4 +1,4 @@
-package org.blockChaimEx;
+package org.blockChaimEx.Entities;
 
 import org.blockChaimEx.Util.StringUtil;
 
