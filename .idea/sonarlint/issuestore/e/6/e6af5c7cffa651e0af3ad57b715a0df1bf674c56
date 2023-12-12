@@ -1,9 +1,22 @@
 
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¯ÕÔÉÅ1
+g	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8×¦…ûÅ1
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(øéà8Ø¦…ûÅ1
+v
+java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ§Š£8Ø¦…ûÅ1
+
+java:S1319"bThe type of "UTXOs" should be an interface such as "Map" rather than the implementation "HashMap".(øéà8Ø¦…ûÅ1
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ï¼¦8Ø¦…ûÅ1
+r	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¾×—ûÿÿÿÿ8Ø¦…ûÅ1
+m	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ï¼¦8Ø¦…ûÅ1
 x
-java:S1104"VMake privateKey a static final constant or non-public and provide accessors if needed.(½¡Úãıÿÿÿÿ8°ÕÔÉÅ1
+java:S1104"VMake privateKey a static final constant or non-public and provide accessors if needed.(½¡Úãıÿÿÿÿ8Ø¦…ûÅ1
 r
-java:S1104"UMake publicKey a static final constant or non-public and provide accessors if needed.(·ó«ø8°ÕÔÉÅ1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ßŞİ8±ÕÔÉÅ1
+java:S1104"UMake publicKey a static final constant or non-public and provide accessors if needed.(·ó«ø8Ø¦…ûÅ1
+n
+java:S1104"QMake UTXOs a static final constant or non-public and provide accessors if needed.(øéà8Ø¦…ûÅ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ßŞİ8Ú¦…ûÅ1
+l	java:S116"PRename this field "UTXOs" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øéà8ß¦…ûÅ1
 `
-java:S4426">Use a key length of at least 224 bits for EC cipher algorithm.(‚šÂ­ûÿÿÿÿ8¾ÕÔÉÅ1
+java:S4426">Use a key length of at least 224 bits for EC cipher algorithm.(‚šÂ­ûÿÿÿÿ8ã¦…ûÅ1
+L	java:S1062"+Replace this use of System.out by a logger.(ÿíˆ×ùÿÿÿÿ8ç¦…ûÅ1
