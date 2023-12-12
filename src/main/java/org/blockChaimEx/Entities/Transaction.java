@@ -77,7 +77,7 @@ public class Transaction {
     }
 
 
-    private float getInputsValue() {
+    public float getInputsValue() {
         float total = 0;
         for (TransactionInput i : inputs){
             if (i.UTXO == null) continue;

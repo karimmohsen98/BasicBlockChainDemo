@@ -14,10 +14,9 @@ public class Block {
     private long timeStamp;
     private int nonce;
 
-    public Block(String data,String previousHash ) {
+    public Block(String previousHash ) {
         this.previousHash = previousHash;
         this.timeStamp = new Date().getTime();
-
         this.hash = calculateHash();
     }
 
