@@ -3,18 +3,22 @@ package org.blockChaimEx;
 import com.google.gson.GsonBuilder;
 import org.blockChaimEx.Entities.Block;
 import org.blockChaimEx.Entities.Transaction;
+import org.blockChaimEx.Entities.TransactionOutput;
 import org.blockChaimEx.Entities.Wallet;
 import org.blockChaimEx.Util.StringUtil;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 import java.security.Security;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Main {
     public static ArrayList<Block> blockchain = new ArrayList<Block>();
+    public static HashMap<String, TransactionOutput> UTXOs = new HashMap<String,TransactionOutput>();
     public static int difficulty = 5;
     public static Wallet walletA;
     public static Wallet walletB;
+    public static float minimumTransaction;
 
 
     public static void main(String[] args) {

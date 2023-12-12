@@ -1,34 +1,50 @@
 
 {
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ç«øÿÿÿÿ8ÀƒßÌÅ1
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Ç«øÿÿÿÿ8ˆ”áóÅ1
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÙÓ¦8ˆ”áóÅ1
 Œ
-java:S1319"jThe type of "blockchain" should be an interface such as "List" rather than the implementation "ArrayList".(™Ç«øÿÿÿÿ8ÀƒßÌÅ1
+java:S1319"jThe type of "blockchain" should be an interface such as "List" rather than the implementation "ArrayList".(™Ç«øÿÿÿÿ8‰”áóÅ1
+
+java:S1319"bThe type of "UTXOs" should be an interface such as "Map" rather than the implementation "HashMap".(ÙÓ¦8Š”áóÅ1
 x
-java:S1104"VMake blockchain a static final constant or non-public and provide accessors if needed.(™Ç«øÿÿÿÿ8ÁƒßÌÅ1
+java:S1104"VMake blockchain a static final constant or non-public and provide accessors if needed.(™Ç«øÿÿÿÿ8Š”áóÅ1
+n
+java:S1104"QMake UTXOs a static final constant or non-public and provide accessors if needed.(ÙÓ¦8Š”áóÅ1
 x
-java:S1104"VMake difficulty a static final constant or non-public and provide accessors if needed.(öÙ‚¥şÿÿÿÿ8ÁƒßÌÅ1
+java:S1104"VMake difficulty a static final constant or non-public and provide accessors if needed.(öÙ‚¥şÿÿÿÿ8‹”áóÅ1
 p
-java:S1104"SMake walletA a static final constant or non-public and provide accessors if needed.(Öß„â8ÁƒßÌÅ1
+java:S1104"SMake walletA a static final constant or non-public and provide accessors if needed.(Öß„â8‹”áóÅ1
 o
-java:S1104"SMake walletB a static final constant or non-public and provide accessors if needed.(˜é®v8ÁƒßÌÅ1
+java:S1104"SMake walletB a static final constant or non-public and provide accessors if needed.(˜é®v8Œ”áóÅ1
+{
+java:S1104"^Make minimumTransaction a static final constant or non-public and provide accessors if needed.(âŠæ¡8ÖÍ£ôÅ1
 R
-java:S1444"0Make this "public static blockchain" field final(™Ç«øÿÿÿÿ8ÁƒßÌÅ1
+java:S1444"0Make this "public static blockchain" field final(™Ç«øÿÿÿÿ8Œ”áóÅ1
+H
+java:S1444"+Make this "public static UTXOs" field final(ÙÓ¦8Œ”áóÅ1
 R
-java:S1444"0Make this "public static difficulty" field final(öÙ‚¥şÿÿÿÿ8ÁƒßÌÅ1
+java:S1444"0Make this "public static difficulty" field final(öÙ‚¥şÿÿÿÿ8Œ”áóÅ1
 J
-java:S1444"-Make this "public static walletA" field final(Öß„â8ÁƒßÌÅ1
+java:S1444"-Make this "public static walletA" field final(Öß„â8”áóÅ1
 I
-java:S1444"-Make this "public static walletB" field final(˜é®v8ÁƒßÌÅ1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¨ùÿÿÿÿ8ÁƒßÌÅ1
+java:S1444"-Make this "public static walletB" field final(˜é®v8”áóÅ1
+U
+java:S1444"8Make this "public static minimumTransaction" field final(âŠæ¡8×Í£ôÅ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¨ùÿÿÿÿ8”áóÅ1
+m
+java:S3008"PRename this field "UTXOs" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÓ¦8©”áóÅ1
 ?
-java:S2386"Make this member "protected".(™Ç«øÿÿÿÿ8ÍˆÍÅ1
-G	java:S106"+Replace this use of System.out by a logger.(€ÂÆ8ÍƒßÌÅ1
-L	java:S106"+Replace this use of System.out by a logger.(êÿÊûÿÿÿÿ8ÍƒßÌÅ1
-L	java:S106"+Replace this use of System.out by a logger.(øèÅøÿÿÿÿ8ÍƒßÌÅ1
-L	java:S106!"+Replace this use of System.out by a logger.(òìßùÿÿÿÿ8äÌáÌÅ1
-G	java:S106""+Replace this use of System.out by a logger.(«¨Ñ¾8ÎîÿÌÅ1
-L	java:S1060"+Replace this use of System.out by a logger.(¹¤ø÷üÿÿÿÿ8ÒîÿÌÅ1
-G	java:S1065"+Replace this use of System.out by a logger.(ª »8ÒîÿÌÅ1
-G	java:S106:"+Replace this use of System.out by a logger.(úÖóë8ÓîÿÌÅ1
+java:S2386"Make this member "protected".(™Ç«øÿÿÿÿ8«”áóÅ1
+:
+java:S2386"Make this member "protected".(ÙÓ¦8«”áóÅ1
+G	java:S106"+Replace this use of System.out by a logger.(€ÂÆ8¿”áóÅ1
+L	java:S106"+Replace this use of System.out by a logger.(êÿÊûÿÿÿÿ8¿”áóÅ1
+L	java:S106 "+Replace this use of System.out by a logger.(øèÅøÿÿÿÿ8À”áóÅ1
+L	java:S106%"+Replace this use of System.out by a logger.(òìßùÿÿÿÿ8Ã”áóÅ1
+G	java:S106&"+Replace this use of System.out by a logger.(«¨Ñ¾8Ã”áóÅ1
+L	java:S1064"+Replace this use of System.out by a logger.(¹¤ø÷üÿÿÿÿ8É”áóÅ1
+G	java:S1069"+Replace this use of System.out by a logger.(ª »8Ë”áóÅ1
+G	java:S106>"+Replace this use of System.out by a logger.(úÖóë8Ì”áóÅ1
 Z
-java:S1128"8Remove this unused import 'com.google.gson.GsonBuilder'.(”«à¬ÿÿÿÿÿ8àˆÍÅ1
+java:S1128"8Remove this unused import 'com.google.gson.GsonBuilder'.(”«à¬ÿÿÿÿÿ8Ì”áóÅ1
