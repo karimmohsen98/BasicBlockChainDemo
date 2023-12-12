@@ -2,26 +2,26 @@ package org.blockChaimEx.Entities;
 
 import org.blockChaimEx.Util.StringUtil;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Block {
 
     public String hash;
     public String previousHash;
-    private String data; //our data will be a simple message.
-    private long timeStamp; //as number of milliseconds since 1/1/1970.
+    public ArrayList<Transaction> transactions = new ArrayList<Transaction>();
+    private String data;
+    private long timeStamp;
     private int nonce;
 
-    //Block Constructor.
     public Block(String data,String previousHash ) {
         this.data = data;
         this.previousHash = previousHash;
         this.timeStamp = new Date().getTime();
 
-        this.hash = calculateHash(); //Making sure we do this after we set the other values.
+        this.hash = calculateHash();
     }
 
-    //Calculate new hash based on blocks contents
     public String calculateHash() {
         String calculatedhash = StringUtil.applySha256(
                 previousHash +
@@ -39,5 +39,18 @@ public class Block {
             hash = calculateHash();
         }
         System.out.println("Block Mined!!! : " + hash);
+    }
+    public Boolean addTransaction(Transaction transaction){
+        if (transaction==null) return false;
+        if ((previousHash != "0")){
+            if (transaction.processTransaction()!=true){
+                System.out.println("Transaction process failed , transaction is to be discarded");
+                return false;
+            }
+        }
+        transactions.add(transaction);
+        System.out.println("Transaction successfully added to block");
+        return true;
+
     }
 }
