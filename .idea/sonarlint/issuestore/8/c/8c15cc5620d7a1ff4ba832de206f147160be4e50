@@ -1,24 +1,26 @@
 
 v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªùœ›8ŠêÇıÅ1
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªùœ›8í×şÅ1
 L
-java:S1066."/Merge this if statement with the enclosing one.(È°ĞÈ8ŠêÇıÅ1
+java:S1066."/Merge this if statement with the enclosing one.(È°ĞÈ8î×şÅ1
 ‰
-java:S1319"lThe type of "transactions" should be an interface such as "List" rather than the implementation "ArrayList".(ªùœ›8ŠêÇıÅ1
+java:S1319"lThe type of "transactions" should be an interface such as "List" rather than the implementation "ArrayList".(ªùœ›8î×şÅ1
 ƒ
-java:S1488"fImmediately return this expression instead of assigning it to the temporary variable "calculatedhash".(­üŒÈ8‹êÇıÅ1
+java:S1488"fImmediately return this expression instead of assigning it to the temporary variable "calculatedhash".(­üŒÈ8î×şÅ1
 m
 java:S1104
-"PMake hash a static final constant or non-public and provide accessors if needed.(õïœÄ8‹êÇıÅ1
+"PMake hash a static final constant or non-public and provide accessors if needed.(õïœÄ8ï×şÅ1
 z
-java:S1104"XMake previousHash a static final constant or non-public and provide accessors if needed.(Û±µ¨úÿÿÿÿ8‹êÇıÅ1
+java:S1104"XMake previousHash a static final constant or non-public and provide accessors if needed.(Û±µ¨úÿÿÿÿ8ï×şÅ1
 u
-java:S1104"XMake transactions a static final constant or non-public and provide accessors if needed.(ªùœ›8‹êÇıÅ1
+java:S1104"XMake transactions a static final constant or non-public and provide accessors if needed.(ªùœ›8ï×şÅ1
 Y
-java:S4973-"<Strings and Boxed types should be compared using "equals()".(å®È©8‹êÇıÅ1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ßŞİ8‹êÇıÅ1
-G	java:S106)"+Replace this use of System.out by a logger.(§ËŞü8˜êÇıÅ1
+java:S4973-"<Strings and Boxed types should be compared using "equals()".(å®È©8ï×şÅ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ßŞİ8ğ×şÅ1
+H
+java:S1172"+Remove this unused method parameter "data".(–ˆ—Ú8ù×şÅ1
+G	java:S106)"+Replace this use of System.out by a logger.(§ËŞü8ş×şÅ1
 D
-java:S1125."'Remove the unnecessary boolean literal.(È°ĞÈ8™êÇıÅ1
-L	java:S106/"+Replace this use of System.out by a logger.(Û–øÿÿÿÿ8™êÇıÅ1
-L	java:S1064"+Replace this use of System.out by a logger.(¾«¤ûÿÿÿÿ8™êÇıÅ1
+java:S1125."'Remove the unnecessary boolean literal.(È°ĞÈ8ÿ×şÅ1
+L	java:S106/"+Replace this use of System.out by a logger.(Û–øÿÿÿÿ8ÿ×şÅ1
+L	java:S1064"+Replace this use of System.out by a logger.(¾«¤ûÿÿÿÿ8€ØşÅ1

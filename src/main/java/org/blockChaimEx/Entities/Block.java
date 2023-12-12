@@ -10,12 +10,11 @@ public class Block {
     public String hash;
     public String previousHash;
     public ArrayList<Transaction> transactions = new ArrayList<Transaction>();
-    private String data;
+    private String merkleRoot;
     private long timeStamp;
     private int nonce;
 
     public Block(String data,String previousHash ) {
-        this.data = data;
         this.previousHash = previousHash;
         this.timeStamp = new Date().getTime();
 
@@ -27,7 +26,8 @@ public class Block {
                 previousHash +
                         Long.toString(timeStamp) +
                         Integer.toString(nonce) +
-                        data
+                        merkleRoot
+
         );
         return calculatedhash;
     }
