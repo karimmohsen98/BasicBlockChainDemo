@@ -1,11 +1,11 @@
 
 p
-java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ8óÿ½ÍÅ1
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(Â¥Šˆøÿÿÿÿ8ÖÖƒÆ1
 w
-java:S1104	"UMake recipient a static final constant or non-public and provide accessors if needed.(™Íâìøÿÿÿÿ8öÿ½ÍÅ1
+java:S1104	"UMake recipient a static final constant or non-public and provide accessors if needed.(™Íâìøÿÿÿÿ8™Ô€€Æ1
 s
 java:S1104
-"QMake value a static final constant or non-public and provide accessors if needed.(¼Á’Øıÿÿÿÿ8÷ÿ½ÍÅ1
+"QMake value a static final constant or non-public and provide accessors if needed.(¼Á’Øıÿÿÿÿ8™Ô€€Æ1
 
-java:S1104"_Make parentTransactionId a static final constant or non-public and provide accessors if needed.(ÿìñËıÿÿÿÿ8ùÿ½ÍÅ1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ßŞİ8€€¾ÍÅ1
+java:S1104"_Make parentTransactionId a static final constant or non-public and provide accessors if needed.(ÿìñËıÿÿÿÿ8™Ô€€Æ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ßŞİ8šÔ€€Æ1

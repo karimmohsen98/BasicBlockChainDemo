@@ -8,6 +8,7 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import java.security.Security;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.logging.Logger;
 
 public class Main {
     public static ArrayList<Block> blockchain = new ArrayList<Block>();
@@ -17,6 +18,7 @@ public class Main {
     public static Wallet walletB;
     public static float minimumTransaction = 0.1f;
     public static Transaction genesisTransaction;
+    private static final Logger logger = Logger.getLogger(Main.class.getName());
 
 
     public static void main(String[] args) {
@@ -40,25 +42,25 @@ public class Main {
 
         //testing
         Block block1 = new Block(genesis.hash);
-        System.out.println("\nWalletA's balance is: " + walletA.getBalance());
-        System.out.println("\nWalletA is Attempting to send funds (40) to WalletB...");
+        logger.info("\nWalletA's balance is: " + walletA.getBalance());
+        logger.info("\nWalletA is Attempting to send funds (40) to WalletB...");
         block1.addTransaction(walletA.sendFunds(walletB.publicKey, 40f));
         addBlock(block1);
-        System.out.println("\nWalletA's balance is: " + walletA.getBalance());
-        System.out.println("WalletB's balance is: " + walletB.getBalance());
+        logger.info("\nWalletA's balance is: " + walletA.getBalance());
+        logger.info("WalletB's balance is: " + walletB.getBalance());
 
         Block block2 = new Block(block1.hash);
-        System.out.println("\nWalletA Attempting to send more funds (1000) than it has...");
+        logger.info("\nWalletA Attempting to send more funds (1000) than it has...");
         block2.addTransaction(walletA.sendFunds(walletB.publicKey, 1000f));
         addBlock(block2);
-        System.out.println("\nWalletA's balance is: " + walletA.getBalance());
-        System.out.println("WalletB's balance is: " + walletB.getBalance());
+        logger.info("\nWalletA's balance is: " + walletA.getBalance());
+        logger.info("WalletB's balance is: " + walletB.getBalance());
 
         Block block3 = new Block(block2.hash);
-        System.out.println("\nWalletB is Attempting to send funds (20) to WalletA...");
-        block3.addTransaction(walletB.sendFunds( walletA.publicKey, 20));
-        System.out.println("\nWalletA's balance is: " + walletA.getBalance());
-        System.out.println("WalletB's balance is: " + walletB.getBalance());
+        logger.info("\nWalletB is Attempting to send funds (20) to WalletA...");
+        block3.addTransaction(walletB.sendFunds(walletA.publicKey, 20));
+        logger.info("\nWalletA's balance is: " + walletA.getBalance());
+        logger.info("WalletB's balance is: " + walletB.getBalance());
 
         isChainValid();
 

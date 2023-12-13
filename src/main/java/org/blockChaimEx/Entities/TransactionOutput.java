@@ -18,5 +18,6 @@ public class TransactionOutput {
     }
     public Boolean coinIsMine(PublicKey publicKey){
         return (publicKey==recipient);
+        
     }
 }

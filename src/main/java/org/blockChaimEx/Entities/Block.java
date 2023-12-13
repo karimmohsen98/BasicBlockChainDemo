@@ -4,6 +4,7 @@ import org.blockChaimEx.Util.StringUtil;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.logging.Logger;
 
 public class Block {
 
@@ -14,6 +15,7 @@ public class Block {
     private long timeStamp;
     private int nonce;
 
+    private static final Logger logger = Logger.getLogger(Block.class.getName());
     public Block(String previousHash ) {
         this.previousHash = previousHash;
         this.timeStamp = new Date().getTime();
@@ -21,14 +23,13 @@ public class Block {
     }
 
     public String calculateHash() {
-        String calculatedhash = StringUtil.applySha256(
+        return StringUtil.applySha256(
                 previousHash +
-                        Long.toString(timeStamp) +
-                        Integer.toString(nonce) +
+                        timeStamp +
+                        nonce +
                         merkleRoot
 
         );
-        return calculatedhash;
     }
 
     public void mineBlock(int difficulty) {
@@ -42,13 +43,13 @@ public class Block {
     public Boolean addTransaction(Transaction transaction){
         if (transaction==null) return false;
         if ((previousHash != "0")){
-            if (transaction.processTransaction()!=true){
-                System.out.println("Transaction process failed , transaction is to be discarded");
+            if (Boolean.FALSE.equals(transaction.processTransaction())){
+                logger.info("Transaction process failed , transaction is to be discarded");
                 return false;
             }
         }
         transactions.add(transaction);
-        System.out.println("Transaction successfully added to block");
+        logger.info("Transaction successfully added to block");
         return true;
 
     }

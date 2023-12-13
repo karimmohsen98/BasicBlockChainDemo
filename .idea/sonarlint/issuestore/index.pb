@@ -15,3 +15,6 @@ m
 =src/main/java/org/blockChaimEx/Entities/TransactionInput.java,6\f\6ff398eab15ca10d25307229a42a24f92b3498f1
 n
 >src/main/java/org/blockChaimEx/Entities/TransactionOutput.java,9\d\9d168090bde8d853cc0a5a8f165307987575a1e2
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
